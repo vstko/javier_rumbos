@@ -247,7 +247,15 @@ body {
     height: 50px;
     display: flex;
     justify-content: flex-end;
-    align-items: center; }
+    align-items: center;
+    /*
+    for use if using logo on menu...
+    		img:nth-of-type(1) {
+    			width: 22px;
+    			height: auto;
+    			margin-right: auto;
+    		}
+    */ }
     @media (max-width: 600px) {
       #section__nav #burger-icon-container {
         background-color: #1A1A1A;
@@ -256,20 +264,16 @@ body {
         top: 0;
         left: 0; } }
     #section__nav #burger-icon-container img:nth-of-type(1) {
-      width: 22px;
-      height: auto;
-      margin-right: auto; }
-    #section__nav #burger-icon-container img:nth-of-type(2) {
       position: absolute;
       z-index: 5;
       width: 30px;
       height: 40px;
       margin-right: 40px; }
       @media (min-width: 1228px) {
-        #section__nav #burger-icon-container img:nth-of-type(2) {
+        #section__nav #burger-icon-container img:nth-of-type(1) {
           display: none; } }
       @media (max-width: 600px) {
-        #section__nav #burger-icon-container img:nth-of-type(2) {
+        #section__nav #burger-icon-container img:nth-of-type(1) {
           margin: 0;
           display: inline-block; } }
   #section__nav nav {

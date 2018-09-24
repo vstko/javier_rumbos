@@ -377,14 +377,15 @@ body {
 			top:0;
 			left: 0;
 		}
-
+/*
+for use if using logo on menu...
 		img:nth-of-type(1) {
 			width: 22px;
 			height: auto;
 			margin-right: auto;
 		}
-
-		img:nth-of-type(2) {
+*/
+		img:nth-of-type(1) {
 			position: absolute;
 			z-index: 5;
 			width: 30px;
