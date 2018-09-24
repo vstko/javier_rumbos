@@ -1,0 +1,15 @@
+{
+  "name": "javier-rumbos-web",
+  "version": "1.0.0",
+  "description": "Web Javier Rumbos",
+  "main": "index.js",
+  "scripts": {
+    "compile-css": "node-sass --output-style nested --watch sass/style.scss style.css"
+  },
+  "author": "EKFM",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "sass": "^1.13.0"
+  }
+}
